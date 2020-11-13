@@ -1,0 +1,211 @@
+/* Start Global Rules */
+
+body {font-family: 'Montserrat', sans-serif;}
+
+:root {
+    --pirmary-color: #FF4C68;
+    --secondry-color: #EF8172;
+}
+
+/* End Global Rules */
+
+/* Start Intro Section */
+
+.intro {
+    background-color: var(--pirmary-color);
+    color: #FFF !important;
+}
+
+/* Start Navbar */
+
+.navbar {padding: 20px 0;}
+
+.navbar .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navbar .nav-item {margin-left: 55px;font-size: 1.2rem;}
+
+/* End Navbar */
+
+/* Start Header */
+
+.intro .header {margin-top: 10vh;padding-bottom: 10%;}
+
+.intro .header h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: .5px;
+}
+
+.intro .header .btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.header img {
+    position: absolute;
+    right: 30%;
+    width: 60%;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+/* End Header */
+
+@media (max-width: 991px) {
+    .navbar .navbar-nav .nav-item {
+        margin-left: 10PX;
+    }
+    .header {
+        text-align: center;
+    }
+    .header img {
+        position: static;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+@media (min-width: 992px) {
+    .intro {
+        max-height: 700px;
+    }
+}
+
+/* End Intro Section */
+
+/* Start Features Section */
+
+.features {
+    position: relative;
+    padding: 70px 0 20px;
+    background-color: #FFF;
+}
+
+.features .feat i {color: var(--secondry-color);}
+
+.features .feat:hover i {color: var(--pirmary-color);}
+
+.features .feat h3 {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #000;
+}
+
+.features .feat p {
+    margin: 20px 0 50px;
+    font-size: 1.2rem;
+    padding: 0 5%;
+    color: #8F8F8F;
+}
+
+/* Start End Section */
+
+/* Start Testimonials Section */
+
+.testimonials {
+    padding: 7% 0;
+    background-color: var(--secondry-color);
+    color: #FFF;
+}
+
+.testimonials h2 {
+    padding: 2% 0 0;
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonials .testimonial-image {width: 10%;margin: 20px;}
+
+@media (max-width: 991px) {
+    .testimonials h2 {
+        padding: 0 5%;
+    }
+}
+
+/* End Testimonials Section */
+
+/* Start Press Logo Section */
+
+.press {background-color: #EF8172;padding-bottom: 3%;}
+
+.press .press-logo img {width: 95%;margin-bottom: 40px;}
+
+@media (max-width: 991px) {
+    .press .press-logo img {
+        margin-bottom: 40px;
+    }
+}
+
+/* End Press Logo Section */
+
+/* Start Pricing Section */
+
+.pricing {padding: 7% 0;}
+
+.pricing h2 {color: #000;font-weight: bold;}
+
+.pricing .pricing-card h2 {
+    font-size: 2.7rem;
+}
+
+.pricing .pricing-card {padding: 3% 2%;margin-bottom: 30px;}
+
+.pricing .first-card .card-body p,
+.pricing .second-card .card-body p {margin-bottom: 10%;}
+
+/* End Pricing Section */
+
+/* Start CTA Section */
+
+.cta {
+    padding: 7% 0;
+    background-color:var(--pirmary-color);
+    color: #FFF;
+}
+
+.cta h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.cta button {margin: 0% 1%;}
+
+/* End CTA Section */
+
+/* Start Footer Section */
+
+.footer {padding: 4% 0;}
+
+.footer .social-icons {margin-bottom: 2%;}
+
+.footer .social-icons i {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer .social-icons .fa-facebook-f:hover {color: #3b5998;}
+
+.footer .social-icons .fa-twitter:hover {color: #1da1f2;}
+
+.footer .social-icons .fa-instagram:hover {color: #c13584;}
+
+.footer .social-icons .fa-envelope:hover {color: #dd4b39;}
+
+.footer p {margin-bottom: 0;color: #8F8F8F;}
+
+/* End Footer Section */
