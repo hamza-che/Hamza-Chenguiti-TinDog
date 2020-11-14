@@ -46,6 +46,8 @@ body {font-family: 'Montserrat', sans-serif;}
     margin-right: 20px;
 }
 
+.intro .header .btn:last-of-type {margin-bottom: 40px;}
+
 .header img {
     position: absolute;
     right: 30%;
@@ -181,7 +183,7 @@ body {font-family: 'Montserrat', sans-serif;}
     margin-bottom: 5%;
 }
 
-.cta button {margin: 0% 1%;}
+.cta button {margin: 1% 1%;}
 
 /* End CTA Section */
 
