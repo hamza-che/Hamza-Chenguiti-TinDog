@@ -46,8 +46,6 @@ body {font-family: 'Montserrat', sans-serif;}
     margin-right: 20px;
 }
 
-.intro .header .btn:last-of-type {margin-bottom: 40px;}
-
 .header img {
     position: absolute;
     right: 30%;
@@ -60,6 +58,10 @@ body {font-family: 'Montserrat', sans-serif;}
 }
 
 /* End Header */
+
+@media (max-width: 499px) {
+    .intro .header .btn:last-of-type {margin-bottom: 40px;}
+}
 
 @media (max-width: 991px) {
     .navbar .navbar-nav .nav-item {
